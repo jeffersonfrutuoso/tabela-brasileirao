@@ -4,19 +4,32 @@
     box-sizing: border-box;
 }
 
-.tabela{
+.titulo{
+    background-color: green;
+    color: white;
+}
+
+table{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-th, td {
-    padding: 8px;
+    height: 100vh;
+    font-family: sans-serif;
     text-align: center;
+}
+
+.g4{
+    background-color: rgb(127, 207, 127);
+}
+
+.z4{
+    background-color: rgb(208, 110, 110);
+}
+
+.pre{
+    background-color: rgb(115, 177, 197);
+}
+.espec{
+    color: white;
+    background-color: black;
 }
